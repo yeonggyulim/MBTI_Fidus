@@ -63,12 +63,10 @@ const Gnb = styled.div`
 	}
 `;
 
-const DropdownMenu = styled.div`
+const CollapsedMenu = styled.div`
 	display: flex;
 	flex-direction: column;
 `;
-
-const CollapsedMenu = styled.div``;
 
 const Header = () => {
 	const navigations = (
